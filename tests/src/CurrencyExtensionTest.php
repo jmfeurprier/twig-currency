@@ -1,10 +1,12 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Jmf\Twig\Extension\Currency;
 
 use PHPUnit\Framework\TestCase;
 
-class CurrencyExtensionTest extends TestCase
+final class CurrencyExtensionTest extends TestCase
 {
     public function testDefaultFormatting(): void
     {
